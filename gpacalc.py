@@ -12,13 +12,13 @@ while True:
 
     grade = input("What was the letter grade in your class > ")
     
-    if grade == "A":
+    if grade == "A" or int(grade)>=90:
         grade = 4
-    elif grade == "B":
+    elif grade == "B"or 90<int(grade)>=80:
         grade= 3
-    elif grade == "C":
+    elif grade == "C"or 80<int(grade)>=70:
         grade = 2
-    elif grade == "D":
+    elif grade == "D"or 70<int(grade)>=60:
         grade = 1
     else:
         print("please enter a letter grade correctly")
